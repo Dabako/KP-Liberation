@@ -101,7 +101,7 @@ GRLIB_arsenal_weapons = [
     "rhs_weap_vss",                                               	// VSS Vintorez
     "rhs_weap_vss_grip",                                            // VSS Vintorez (Grip)
     "rhs_weap_vss_grip_npz",                                        // VSS Vintorez (Grip/NPZ)
-    "rhs_weap_vss_npz"                                             // VSS Vintorez (NPZ)
+    "rhs_weap_vss_npz"                                              // VSS Vintorez (NPZ)
 
 	//Vanilla Launchers
 	"launch_O_Vorona_brown_F",										// Metis M (Brown)
@@ -139,47 +139,134 @@ GRLIB_arsenal_magazines = [
     "rhs_20rnd_9x39mm_SP6",                                         // 20rnd AS Val SP-6
     "rhs_mag_9x19mm_7n21_20",                                       // 20rnd PP-2000 7N21
     "rhs_mag_9x19mm_7n31_20",                                       // 20rnd PP-2000 7N31
+    "rhs_30Rnd_762x39mm_polymer",                                   // 30rnd AK-103 57-N-231
+    "rhs_30Rnd_762x39mm_polymer_89",                                // 30rnd AK-103 57-N-231(89)
+    "rhs_30Rnd_762x39mm_polymer_tracer",                            // 30rnd AK-103 57-N-231 (Tracer)
+    "rhs_30Rnd_762x39mm_polymer_U",                                 // 30rnd AK-103 57-N-231U (Subsonic)
+    "rhs_30Rnd_545x39_7N10_2mag_AK",                                // 30rnd AK-74 (2x) 7N10
+    "rhs_30Rnd_545x39_7N10_2mag_camo_AK",                           // 30rnd AK-74 (2x/Camo) 7N10
+    "rhs_30Rnd_545x39_7N10_2mag_desert_AK",                         // 30rnd AK-74 (2x/Desert) 7N10
+    "rhs_30Rnd_545x39_7N10_2mag_plum_AK",                           // 30rnd AK-74 (2x/Plum) 7N10
+    "rhs_30Rnd_545x39_AK_green",                                    // 30rnd AK-74 (Bakelite) 7T3M (Tracer)
+    "rhs_30Rnd_545x39_7N6_AK",                                      // 30rnd AK-74 (Bakelite) 7N6
+    "rhs_30Rnd_545x39_7N6M_AK",                                     // 30rnd AK-74 (Bakelite) 7N6M
+    "rhs_30Rnd_545x39_7N10_camo_AK",                                // 30rnd AK-74 (Camo) 7N10
+    "rhs_30Rnd_545x39_7N22_camo_AK",                                // 30rnd AK-74 (Camo) 7N22
+    "rhs_30Rnd_545x39_7N10_desert_AK",                              // 30rnd AK-74 (Desert) 7N10
+    "rhs_30Rnd_545x39_7N22_desert_AK",                              // 30rnd AK-74 (Desert) 7N22
+    "rhs_30Rnd_545x39_7N6_green_AK",                                // 30rnd AK-74 (Green) 7N6
+    "rhs_30Rnd_545x39_7N6M_green_AK",                               // 30rnd AK-74 (Green) 7N6M
+    "rhs_30Rnd_545x39_AK_plum_green",                               // 30rnd AK-74 (Plum) 7T3M (Tracer)
+    "rhs_30Rnd_545x39_7N10_plum_AK",                                // 30rnd AK-74 (Plum) 7N10
+    "rhs_30Rnd_545x39_7N22_plum_AK",                                // 30rnd AK-74 (Plum) 7N22
+    "rhs_30Rnd_545x39_7N6M_plum_AK",                                // 30rnd AK-74 (Plum) 7N6M
+    "rhs_30Rnd_545x39_7N10_AK",                                     // 30rnd AK-74 7N10
+    "rhs_30Rnd_545x39_7N22_AK",                                     // 30rnd AK-74 7N22
+    "rhs_30Rnd_545x39_7U1_AK",                                      // 30rnd AK-74 7U1 (Subsonic)
+    "rhs_30Rnd_762x39mm_bakelite",                                  // 30rnd AKM (Bakelite) 57-N-231
+    "rhs_30Rnd_762x39mm_bakelite_89",                               // 30rnd AKM (Bakelite) 57-N-231(89)
+    "rhs_30Rnd_762x39mm_bakelite_tracer",                           // 30rnd AKM (Bakelite) 57-N-231P (Tracer)
+    "rhs_30Rnd_762x39mm_bakelite_U",                                // 30rnd AKM (Bakelite) 57-N-231U (Subsonic)
+    "rhs_30Rnd_762x39mm",                                           // 30rnd AKM 57-N-231
+    "rhs_30Rnd_762x39mm_89",                                        // 30rnd AKM 57-N-231(89)
+    "rhs_30Rnd_762x39mm_tracer",                                    // 30rnd AKM 57-N-231P (Tracer)
+    "rhs_30Rnd_762x39mm_U",                                         // 30rnd AKM 57-N-231U (Subsonic)
+    "rhs_mag_9x19mm_7n21_44",                                       // 44rnd PP-2000 7N21
+    "rhs_mag_9x19mm_7n31_44",                                       // 44rnd PP-2000 7N31
+    "rhs_45Rnd_545X39_AK_Green",                                    // 45rnd RPK-74 7T3M (Tracer)
+    "rhs_45Rnd_545X39_7N10_AK",                                     // 45rnd RPK-74 7N10
+    "rhs_45Rnd_545X39_7N6_AK",                                      // 45rnd RPK-74 7N6
+    "rhs_45Rnd_545X39_7U1_AK",                                      // 45rnd RPK-74 7U1 (Subsonic)
+    "30Rnd_545x39_Mag_Green_F",                                     // 5.45 mm 30Rnd Reload Tracer (Green) Mag
+    "30Rnd_545x39_Mag_F",                                           // 5.45 mm 30Rnd Reload Tracer (Yellow) Mag
+    "30Rnd_545x39_Mag_Tracer_Green_F",                              // 5.45 mm 30Rnd Tracer (Green) Mag
+    "30Rnd_545x39_Mag_Tracer_F",                                    // 5.45 mm 30Rnd Tracer (Yellow) 
+    "rhs_5Rnd_338lapua_t5000",                                      // 5rnd T-5000 .338
+    "10Rnd_762x52_Mag",                                             // 7.62 mm 10Rnd
+    "150Rnd_762x54_Box",                                            // 7.62 mm 150Rnd Box
+    "150Rnd_762x54_Box",                                            // 7.62 mm 150Rnd Tracer (Green) Box
+    "30rnd_762x39_AK12_Lush_Mag_F",                                 // 7.62 mm 30rnd AK12 Khaki Mag
+    "30Rnd_762x39_AK12_Mag_F",                                      // 7.62 mm 30rnd AK12 Mag
+    "30rnd_762x39_AK12_Arid_Mag_F",                                 // 7.62 mm 30rnd AK12 Sand Mag
+    "30rnd_762x39_AK12_Lush_Mag_Tracer_F",                          // 7.62 mm 30rnd AK12 Tracer Khaki Mag
+    "30Rnd_762x39_AK12_Mag_Tracer_F",                               // 7.62 mm 30rnd AK12 Tracer Mag
+    "30rnd_762x39_AK12_Arid_Mag_Tracer_F",                          // 7.62 mm 30rnd AK12 Tracer Sand Mag
+    "30Rnd_762x39_Mag_Green_F",                                     // 7.62 mm 30Rnd AKM Reload Tracer (Green) Mag
+    "30Rnd_762x39_Mag_F",                                           // 7.62 mm 30Rnd AKM Reload Tracer (Yellow) Mag
+    "30Rnd_762x39_Mag_Tracer_Green_F",                              // 7.62 mm 30Rnd AKM Tracer (Green) Mag
+    "30Rnd_760x36_Tracer_F",                                        // 7.62 mm 30Rnd AKM Tracer (Yellow) Mag
+    "75rnd_762x39_AK12_Arid_Mag_F",                                 // 7.62 mm 75rnd AK12 Arid Mag
+    "75rnd_762x39_AK12_Lush_Mag_F",                                 // 7.62 mm 75rnd AK12 Lush Mag
+    "75rnd_762x39_AK12_Mag_F",                                      // 7.62 mm 75rnd AK12 Mag
+    "75rnd_762x39_AK12_Arid_Mag_Tracer_F",                          // 7.62 mm 75rnd AK12 Tracer Arid Mag
+    "75rnd_762x39_AK12_Lush_Mag_Tracer_F",                          // 7.62 mm 75rnd AK12 Tracer Lush Mag
+    "75rnd_762x39_AK12_Mag_Tracer_F",                               // 7.62 mm 75rnd AK12 Tracer Mag
+    "75Rnd_762x39_Mag_F",                                           // 7.62 mm 75rnd AKM Mag
+    "75Rnd_762x39_Mag_Tracer_F",                                    // 7.62 mm 75RND AKM Tracer Mag
+    "ACE_10Rnd_762x54_Tracer_mag",                                  // 7.62x54mm 10Rnd Tracer Mag
+    "rhs_75Rnd_762x39mm",                                           // 75rnd RPK 57-N-231
+    "rhs_75Rnd_762x39mm_89",                                        // 75rnd RPK 57-N-231(89)
+    "rhs_75Rnd_762x39mm_tracer",                                    // 75rnd RPK 57-N-231P (Tracer)
+    "rhs_GDM40",                                                    // GDM-40 (White)
+    "rhs_GRD40_Green",                                              // GRD-40 (Green)
+    "rhs_GRD40_Red",                                                // GRD-40 (Red)
+    "rhs_GRD40_White",                                              // GRD-40 (White)
+    "rhs_VG40MD",                                                   // VG-40MD
+    "rhs_VG40OP_green",                                             // VG-40OP (Grenn)
+    "rhs_VG40OP_red",                                               // VG-40OP (Red)
+    "rhs_VG40OP_white",                                             // VG-40OP (White)
+    "rhs_VG40SZ",                                                   // VG-40SZ
+    "rhs_VG40TB",                                                   // VG-40TB
+    "rhs_VOG25",                                                    // VOG25
+    "rhs_VOG25P",                                                   // VOG25P
+
+    //Launcher Munition
+    "rhs_mag_9k32_rocket",                                          // 9K32
+    "rhs_mag_2rnd_Igla",                                            // 9K32 (2mag)
+    "rhs_mag_9k38_rocket",                                          // 9K38
+    "Vorona_HE",                                                    // 9M135 HE Missile
+    "Vorona_HEAT",                                                  // 9M135 HEAT Missile
+    "ace_compat_rhs_afrf3_mag_9M131F",                              // ATGM 9M131F
+    "ace_compat_rhs_afrf3_mag_9M131M",                              // ATGM 9M131M
+    "ace_compat_rhs_afrf3_mag_9m133",                               // ATGM 9M133
+    "ace_compat_rhs_afrf3_mag_9m1331",                              // ATGM 9M133-1
+    "ace_compat_rhs_afrf3_mag_9m133f",                              // ATGM 9M133F
+    "ace_compat_rhs_afrf3_mag_9m133m2",                             // ATGM 9M133M2
+    "ace_compat_rhs_afrf3_mag_GPD30_30",                            // GPD30
+    "ace_compat_rhs_afrf3_mag_OG9V",                                // HE-FRAG OG9V
+    "ace_compat_rhs_afrf3_mag_OG9VM",                               // HE-FRAG OG9VM
+    "ace_compat_rhs_afrf3_mag_PG9N",                                // HEAT PG9N
+    "ace_compat_rhs_afrf3_mag_PG9V",                                // HEAT PG9V
+    "ace_compat_rhs_afrf3_mag_PG9VNT",                              // HEAT PG9VNT
+    "rhs_rpg7_OG7V_mag",                                            // OG-7V
+    "rhs_rpg7_PG7V_mag",                                            // PG-7V
+    "rhs_rpg7_PG7VL_mag",                                           // PG-7VL
+    "rhs_rpg7_PG7VM_mag",                                           // PG-7VM
+    "RPG7_F",                                                       // PG-7VM HEAT Grenade
+    "rhs_rpg7_PG7VR_mag",                                           // PG-7VR
+    "rhs_rpg7_PG7VS_mag",                                           // PG-7VS
+    "ACE_SpaceBarrel",                                              // Spare Barrel
+    "rhs_rpg7_TBG7V_mag",                                           // TBG-7V
+    "Titan_AA",                                                     // Titan AA Missile
+    "rhs_rpg7_type69_airburst_mag",                                 // Type-69 Airburst
+    "ace_compat_rhs_afrf3_mag_VOG17m_30",                           // VOG17M
+    "ace_compat_rhs_afrf3_mag_VOG30_30",                            // VOG30
     
-    "rhs_mag_30Rnd_556x45_M200_Stanag",                             // 30rnd STANAG M200 (Blank)
-    "rhs_mag_30Rnd_556x45_M855_PMAG_Tan_Tracer_Red",                // 30rnd PMAG M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_PMAG_Tan",                           // 30rnd PMAG M855
-    "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red",                    // 30rnd PMAG M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_PMAG",                               // 30rnd PMAG M855
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red",             // 30rnd STANAG (Puller) M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Pull",                        // 30rnd STANAG (Puller) M855
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red",           // 30rnd STANAG (Ranger) M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger",                      // 30rnd STANAG (Ranger) M855
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",                  // 30rnd STANAG M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_Stanag",                             // 30rnd STANAG M855
-    "rhs_mag_30Rnd_556x45_M855A1_EPM_Pull_Tracer_Red",              // 30rnd EPM (Puller) M855A1 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855A1_EPM_Pull",                         // 30rnd EPM (Puller) M855A1
-    "rhs_mag_30Rnd_556x45_M855A1_EPM_Ranger_Tracer_Red",            // 30rnd EPM (Ranger) M855A1 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855A1_EPM_Ranger",                       // 30rnd EPM (Ranger) M855A1
-    "rhs_mag_30Rnd_556x45_M855A1_EPM_Tracer_Red",                   // 30rnd EPM M855A1 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855A1_EPM",                              // 30rnd EPM M855A1
-    "rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan_Tracer_Red",              // 30rnd PMAG M856A1 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855A1_PMAG_Tan",                         // 30rnd PMAG M855A1
-    "rhs_mag_30Rnd_556x45_M855A1_PMAG_Tracer_Red",                  // 30rnd PMAG M856A1 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855A1_PMAG",                             // 30rnd PMAG M855A1
-    "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull_Tracer_Red",           // 30rnd STANAG (Puller) M856A1 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855A1_Stanag_Pull",                      // 30rnd STANAG (Puller) M855A1
-    "rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger_Tracer_Red",         // 30rnd STANAG (Ranger) M856A1 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger",                    // 30rnd STANAG (Ranger) M855A1
-    "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",                // 30rnd STANAG M856A1 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855A1_Stanag",                           // 30rnd STANAG M855A1
-    "rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan",                          // 30rnd PMAG Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk262_PMAG",                              // 30rnd PMAG Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull",                       // 30rnd STANAG (Puller) Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk262_Stanag_Ranger",                     // 30rnd STANAG (Ranger) Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk262_Stanag",                            // 30rnd STANAG Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan",                          // 30rnd PMAG Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_PMAG",                              // 30rnd PMAG Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull",                         // 30rnd SCAR (Puller) Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR_Ranger",                       // 30rnd SCAR (Ranger) Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR",                              // 30rnd SCAR Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull",                       // 30rnd STANAG (Puller) Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger",                     // 30rnd STANAG (Ranger) Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag",                            // 30rnd STANAG Mk318 Mod 0
+    // Launcher Bags
+    "ace_compat_rhs_afrf3_2b14_carry",                              // [CSW] 2B14 Tube Bag
+    "ace_csw_kordCarryTripod",                                      // [CSW] 6P57 Deployable Tripod
+    "ace_csw_kordCarryTripodLow",                                   // [CSW] 9P57 Deployable Tripod (Low)
+    "ace_compat_rhs_afrf3_metis_carry",                             // [CSW] 9K115 Metis Launcher Bag
+    "ace_compat_rhs_afrf3_kornet_carry",                            // [CSW] 9M113 Kornet Launcher
+    "ace_compat_rhs_afrf3_ags30_carry",                             // [CSW] AGS-30 Gun Bag
+    "ace_compat_rhs_afrf3_kord_carry",                              // [CSW] KORD Gun Bag
+    "ace_compat_rhs_afrf3_nsv_carry",                               // [CSW] NSV Gun Bag
+    "ace_csw_sag30CarryTripod",                                     // [CSW] SAG-30 Deployable Tripod
+    "ace_csw_spg9CarryTripod",                                      // [CSW] SPG-9 Deployable Tripod
+    "ace_compat_rhs_afrf3_spg9_carry",                              // [CSW] SPG-9 Launcher Bag
+    "ace_compat_rhs_afrf3_spg9m_carry",                             // [CSW] SPG-9M Launcher Bag
+
+    //To be done
     "rhs_mag_an_m14_th3",                                           // AN-M14 TH3 Invendenary Grenade
     "rhs_mag_an_m8hc",                                              // AN-M8HC White Smooke
     "rhs_mag_m18_green",                                            // M18 Green Smoke Grenade
